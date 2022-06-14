@@ -1,5 +1,5 @@
 body {
-    background: #c2a878;
+    background: white;
     font-family: 'Merriweather', serif;
     font-size: 1.2rem;
     line-height: 1.4em;
@@ -16,8 +16,7 @@ p {
 }
 
 .container{
-    width: 85%;
-    max-width: 850px;
+    width: 100%;
     margin: 0 auto;
     
 
@@ -67,11 +66,11 @@ p {
 }
 
 .header{
-    background: #355834;
+    background: #3a3a3a;
     color: white;
     padding: 0.2em 0;
 
-    position: fixed;
+    position: relative;
     left: 0;
     top: 0;
     right: 0;
@@ -84,14 +83,16 @@ p {
     }
 
 .logo-nav-container{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0.4em 0;
+    
 }
 
 .logo {
-    margin-left: 0px;
+    margin-left: 184px;
 }
 
 .menu-icon {
@@ -103,6 +104,7 @@ p {
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: right;
 }
 
 .navigation ul li {
@@ -118,15 +120,12 @@ p {
 }
 
 .navigation ul li a:hover{
-    background: #14281D;
+    background: #585858;
 }
 
-.main {
-    padding-top: 12rem;
-}
 
 .footer {
-    background: #6e633d;
+    background: gray;
     padding: 4rem 0;
     text-align: center;
     margin-top: 6re;
@@ -167,6 +166,12 @@ p {
 
     .navigation ul li a:hover{
         background: #14281D;
+    }
+
+    .layout {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
 }
 
